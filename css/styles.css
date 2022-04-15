@@ -210,6 +210,15 @@ img {
   font-size: 14px;
   line-height: 1.71;
 }
+.thumb-icon {
+  display: block;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  border: 1px solid red;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
 /* ----------- WHAT WE DO ------------*/
 .work.section {
   padding-top: 0px;
