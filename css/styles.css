@@ -309,6 +309,10 @@ img {
 
   background-color: var(--secondary-bg-color);
 }
+.wrap-container {
+  display: flex;
+  align-items: baseline;
+}
 .logo-footer {
   display: inline-block;
   margin-bottom: 20px;
@@ -328,6 +332,34 @@ img {
 .address-link:hover,
 .address-link:focus {
   color: var(--accent-color);
+}
+.join-us {
+  display: block;
+  min-width: 206px;
+  margin-left: 70px;
+}
+.join-list {
+  display: flex;
+}
+.join-item:not(:last-child) {
+  margin-right: 10px;
+}
+.join-title {
+  margin-bottom: 20px;
+
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.join-link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid red;
+  background: rgba(255, 255, 255, 0.1);
 }
 
 /* ----------- PORTFOLIO ------------*/
