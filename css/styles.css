@@ -275,6 +275,33 @@ img {
   line-height: 1.17;
   text-align: center;
 }
+/* ----------- CLIENTS ------------*/
+.clients {
+  background-color: var(--primary-bg-color);
+}
+.clients-title {
+  margin-bottom: 50px;
+  text-align: center;
+
+  color: var(--tittle-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.clients-item:not(:last-child) {
+  margin-right: 30px;
+}
+.clients-list {
+  display: flex;
+}
+.clients-link {
+  display: block;
+  width: 170px;
+  height: 92px;
+
+  border: 1px solid #afb1b8;
+}
 /* ----------- FOOTER ------------*/
 .footer {
   padding-top: 60px;
