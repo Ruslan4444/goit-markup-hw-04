@@ -148,7 +148,8 @@ img {
   margin-right: 50px;
 }
 .contacts-link {
-  display: block;
+  display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--primary-text-color);
@@ -156,6 +157,10 @@ img {
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-color);
+}
+.contacts-icon {
+  display: inline-block;
+  margin-right: 10px;
 }
 /* ----------- HERO ------------*/
 .hero-btn {
@@ -226,13 +231,18 @@ img {
   line-height: 1.71;
 }
 .thumb-icon {
-  display: block;
+  display: flex;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
   border: 1px solid red;
   background: #f5f4fa;
   border-radius: 4px;
+}
+.thumb-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* ----------- WHAT WE DO ------------*/
 .work.section {
@@ -310,9 +320,13 @@ img {
   margin-right: 10px;
 }
 .social-link {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
+  border-radius: 50%;
+
   border: 1px solid red;
 }
 /* ----------- CLIENTS ------------*/
@@ -336,12 +350,15 @@ img {
   display: flex;
 }
 .clients-link {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 170px;
   height: 92px;
 
   border: 1px solid #afb1b8;
 }
+
 /* ----------- FOOTER ------------*/
 .footer {
   padding-top: 60px;
