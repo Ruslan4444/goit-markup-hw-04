@@ -426,12 +426,19 @@ img {
   text-transform: uppercase;
 }
 .join-link {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  border: 1px solid red;
+
   background: rgba(255, 255, 255, 0.1);
+  fill: var(--primary-color);
+}
+.join-link:hover,
+.join-link:focus {
+  background-color: var(--accent-color);
 }
 
 /* ----------- PORTFOLIO ------------*/
