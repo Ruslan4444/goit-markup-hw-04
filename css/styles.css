@@ -365,6 +365,13 @@ img {
   height: 92px;
 
   border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: #afb1b8;
+}
+.clients-link:hover,
+.clients-link:focus {
+  border-color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 /* ----------- FOOTER ------------*/
