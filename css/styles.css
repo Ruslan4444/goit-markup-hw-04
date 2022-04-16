@@ -327,8 +327,16 @@ img {
   height: 44px;
   border-radius: 50%;
 
-  border: 1px solid red;
+  fill: #afb1b8;
+  border-color: var(--primary-bg-color);
 }
+
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-color);
+  fill: var(--primary-color);
+}
+
 /* ----------- CLIENTS ------------*/
 .clients {
   background-color: var(--primary-bg-color);
