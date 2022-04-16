@@ -172,9 +172,6 @@ img {
   box-shadow: 0px 4px 4px var(--hero-btn-shadow);
 }
 .hero {
-  background-color: #c4c4c4;
-}
-.hero {
   max-width: 1600px;
   height: 600px;
   margin: 0 auto;
